@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olive Provencio-Johnson Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
-    <!--Top NAV Bar -->    
-    <div class="navbar">
-            <h1>Olive Provencio-Johnson</h1>
-            <ul class="nav">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
-    </div>
+    <!--Top NAV Bar -->
+    <nav class="navbar">
+        <h1>Olive Provencio-Johnson</h1>
+        <ul class="nav">
+            <li class="item"><a href="#about-me">About Me</a></li>
+            <li class="item"><a href="#work">Work</a></li>
+            <li class="item"><a href="#contact-me">Contact Me</a></li>
+            <li class="item"><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
 
-    <div class="portfolio-grid">
-        <div class="portfolio-grid-item hero-item" id="about-me">
-            Item 1
+    <!-- Trying to create a row for each section here, i.e. About Me, Work, and Contact with moving left header columns -->
+    <div class="wrapper">
+        <h2 class="header-about-me">About Me</h2>
+        <article class="main-about-me">
+            <p>I'm a new full-stack web developer whose career has been focused on project and client managemnet for Federally Qualified Health Centers in the Seattle area, and the NNPRFTC, an accrediation and education organization for Nurse Practitioner and PA postgraduate training programs. Web Development may seem like a strange left turn, but I am excited to bridge the gap between my strong project managemnet skills and the world of web development.  </p>
+        </article>
+        <aside class="header-work">Work</aside>
+
+        <!--This is the "Work section, where the grid flexes with the size of the page-->
+        <div class="work-portfolio-grid">
+            <div class="portfolio-grid-item hero-item" id="about-me">
+                Item 1 - Horiseon
+            </div>
+            <div class="portfolio-grid-item" id="work">
+                Item 2 - GitHub Repo
+            </div>
+            <div class="portfolio-grid-item" id="contact">
+                Item 3 - Horiseon Placeholder
+            </div>
+            <div class="portfolio-grid-item" id="resume">
+                Item 4 - Horiseon Placeholder
+            </div>
+            <div class="portfolio-grid-item">
+                Item 5 - Horiseon Placeholder
+            </div>
         </div>
-        <div class="portfolio-grid-item" id="work">
-            Item 2
-        </div>
-        <div class="portfolio-grid-item" id="contact">
-            Item 3
-        </div>
-        <div class="portfolio-grid-item" id="resume">
-            Item 4
-        </div>
-        <div class="portfolio-grid-item">
-            Item 5
-        </div>
-    </div>
 
     </div>
+    <footer class="footer">
+        <p>An OPJ Product</p>
+    </footer>
 </body>
-<footer>
 
-</footer>
 </html>
