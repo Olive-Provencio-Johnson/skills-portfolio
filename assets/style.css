@@ -23,7 +23,25 @@ body {
     color: rgb(22, 85, 195)
 }
 
-.portfolio-grid {
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: thin;
+    text-align: center;
+}
+
+.wrapper > * {
+padding: 10px; 
+flex: 50%; 
+}
+
+.header-about-me {
+    flex: 25%
+    
+} 
+
+
+.work-portfolio-grid {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -45,4 +63,8 @@ gap: 10px
 
 .hero-item {
     width: 100%;
+}
+
+.footer {
+    flexgrow; 0
 }
