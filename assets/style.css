@@ -9,8 +9,8 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 121, 70, 1) 100%);
+    background: rgb(3, 57, 3);
+    background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif color: rgb(11, 1, 1);
     padding-right: 15px;
@@ -26,6 +26,14 @@ body {
     border: 5px solid #fff;
     background-color: rgb(249, 247, 249);
     padding: 5px 5px 5px 5px;
+}
+
+.item:hover {
+    background-color: rgb(31, 25, 31);
+}
+
+.item:hover a {
+    color: greenyellow
 }
 
 .nav li {
@@ -72,6 +80,13 @@ body {
 
 }
 
+.header-left-contact {
+    border: 5px solid #fff;
+    background-color: rgb(249, 247, 249);
+    padding: 5px 5px 5px 50px;
+    margin: 0px;
+}
+
 
 .work-portfolio-grid {
     display: flex;
@@ -87,7 +102,6 @@ body {
         text-align: center;
         border-right: none;
         border-bottom: 5px solid #000
-
     }
 
     .portfolio-grid-item {
@@ -99,8 +113,8 @@ body {
 
 .portfolio-grid-item {
     flex-grow: 0;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 121, 70, 1) 100%);
+    background: rgb(3, 57, 3);
+    background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
     border: black;
     width: calc(50% - 5px);
     height: 200px;
@@ -120,10 +134,9 @@ body {
     font-weight: thin;
     font-size: 25px;
     text-align: center;
-    /* flex: 75%; */
-    padding: 15px;
+height: 125px;
     align-items: center;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 121, 70, 1) 100%);
+    background: rgb(3, 57, 3);
+    background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
 
 }
