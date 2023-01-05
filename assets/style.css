@@ -20,7 +20,12 @@ body {
     border: 5px solid #fff;
     background-color: rgb(249, 247, 249);
     padding: 5px 5px 5px 50px;
+}
 
+.item {
+    border: 5px solid #fff;
+    background-color: rgb(249, 247, 249);
+    padding: 5px 5px 5px 5px;
 }
 
 .nav li {
