@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+/*Nav Bar Items*/ 
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -28,14 +29,6 @@ body {
     padding: 5px 5px 5px 5px;
 }
 
-.item:hover {
-    background-color: rgb(31, 25, 31);
-}
-
-.item:hover a {
-    color: greenyellow
-}
-
 .nav li {
     display: inline;
     list-style: none;
@@ -46,6 +39,22 @@ body {
     color: rgb(22, 85, 195)
 }
 
+/* Hovers */
+.item:hover {
+    background-color: rgb(31, 25, 31);
+}
+
+.item:hover a {
+    color: greenyellow
+}
+
+.contact-items:hover {
+    background-color: rgb(31, 25, 31);
+}
+
+.contact-items:hover a {
+    color: greenyellow
+}
 /* added wrapper to indicate sections that will wrap for mobile view */
 .wrapper {
     display: flex;
@@ -64,13 +73,14 @@ body {
     flex: 75%;
 }
 
-.main-contact-me {
+.contact-items {
     display: flex;
     flex-flow: row-wrap;
     justify-content: space-around;
     flex: 75%;
 }
 
+/*Headers*/ 
 .header-left {
     flex: 25%;
     text-align: right;
@@ -87,7 +97,7 @@ body {
     margin: 0px;
 }
 
-
+/*Work Grid Items in Flex*/
 .work-portfolio-grid {
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +119,6 @@ body {
     }
 
 }
-
 
 .portfolio-grid-item {
     flex-grow: 0;
