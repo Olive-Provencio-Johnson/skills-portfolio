@@ -9,6 +9,7 @@ body {
 /*Nav Bar Items*/ 
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background: rgb(3, 57, 3);
     background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
@@ -25,6 +26,7 @@ body {
 }
 
 .item {
+    flex: wrap; 
     border: 5px solid #fff;
     background-color: rgb(249, 247, 249);
     padding: 5px 5px 5px 5px;
@@ -127,7 +129,7 @@ body {
     background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
     border: black;
     width: calc(50% - 5px);
-    height: 200px;
+    /* height: 200px; */
     padding: 15px;
     align-items: center;
     justify-content: space-between;
@@ -135,6 +137,11 @@ body {
 }
 
 .hero-item {
+    width: 100%;
+
+}
+
+.project {
     width: 100%;
 }
 
