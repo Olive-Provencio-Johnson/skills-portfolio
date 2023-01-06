@@ -6,16 +6,15 @@ body {
     margin: 0;
 }
 
-/*Nav Bar Items*/ 
+/*Nav Bar Items*/
 .navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: rgb(3, 57, 3);
-    background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
+    background-image: url(background.jpeg);
     font-size: 25px;
     font-family: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif color";
-    font-style:  rgb(11, 1, 1);
+    font-style: rgb(11, 1, 1);
     padding-right: 15px;
 }
 
@@ -26,7 +25,7 @@ body {
 }
 
 .item {
-    flex: wrap; 
+    flex: wrap;
     border: 5px solid #fff;
     background-color: rgb(249, 247, 249);
     padding: 5px 5px 5px 5px;
@@ -58,6 +57,7 @@ body {
 .contact-items:hover a {
     color: greenyellow
 }
+
 /* added wrapper to indicate sections that will wrap for mobile view */
 .wrapper {
     display: flex;
@@ -83,7 +83,7 @@ body {
     flex: 75%;
 }
 
-/*Headers*/ 
+/*Headers*/
 .header-left {
     flex: 25%;
     text-align: right;
@@ -141,26 +141,33 @@ body {
 
 }
 
+/*images */
 .project {
     width: 100%;
 }
 
+.profile-photo {
+    height: 100px; 
+    width: 100px; 
+}
+
 .hero-link {
-    position: absolute; 
+    position: absolute;
     width: 100%;
     height: 100%;
-    top: 0; 
-    left: 0; 
-    z-index: 1; 
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
     flex-flow: row wrap;
     font-weight: thin;
     font-size: 25px;
     text-align: center;
-height: 125px;
+    height: 124px;
     align-items: center;
     background: rgb(3, 57, 3);
     background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
