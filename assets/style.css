@@ -26,9 +26,11 @@ body {
 
 .item {
     flex: wrap;
-    border: 5px solid #fff;
+    border: 1px solid #fff;
     background-color: rgb(249, 247, 249);
-    padding: 5px 5px 5px 5px;
+    /* padding: 2px 2px 2px 2px; */
+    /* margin: 5px;  */
+    justify-content: space-evenly;
 }
 
 .nav li {
@@ -37,7 +39,7 @@ body {
 }
 
 .nav a {
-    padding: 8px 12px;
+    padding: 2px 5px;
     color: rgb(22, 85, 195)
 }
 
@@ -74,6 +76,8 @@ body {
 
 .main-about-me {
     flex: 75%;
+    flex-wrap: wrap; 
+    
 }
 
 .contact-items {
@@ -147,10 +151,11 @@ body {
 }
 
 .profile-photo {
-    height: 100px; 
-    width: 100px; 
+    height: 20em; 
+    width: 12em;
 }
 
+/*Hero image formatting*/ 
 .hero-link {
     position: absolute;
     width: 100%;
