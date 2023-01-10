@@ -24,7 +24,7 @@ This webpage can be viewed on regular desktop browsers or mobile.
 ## Project Links and Screenshot
  The following image demonstrates the web application's appearance and functionality:
 
-![Portfolio Screenshot](./assets/Skills-Portfolio-Screenshot.png)
+![Portfolio Screenshot](./assets/Skills%20Portfolio%20Screenshot.jpg)
 
 ![Link to live webpage](https://olive-provencio-johnson.github.io/skills-portfolio/)
 
