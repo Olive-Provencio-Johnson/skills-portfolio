@@ -6,13 +6,15 @@ body {
     margin: 0;
 }
 
+/*Nav Bar Items*/
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 121, 70, 1) 100%);
+    background-image: url(background.jpeg);
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif color: rgb(11, 1, 1);
+    font-family: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif color";
+    font-style: rgb(11, 1, 1);
     padding-right: 15px;
 }
 
@@ -20,7 +22,15 @@ body {
     border: 5px solid #fff;
     background-color: rgb(249, 247, 249);
     padding: 5px 5px 5px 50px;
+}
 
+.item {
+    flex: wrap;
+    border: 1px solid #fff;
+    background-color: rgb(249, 247, 249);
+    /* padding: 2px 2px 2px 2px; */
+    /* margin: 5px;  */
+    justify-content: space-evenly;
 }
 
 .nav li {
@@ -29,8 +39,25 @@ body {
 }
 
 .nav a {
-    padding: 8px 12px;
+    padding: 2px 5px;
     color: rgb(22, 85, 195)
+}
+
+/* Hovers */
+.item:hover {
+    background-color: rgb(31, 25, 31);
+}
+
+.item:hover a {
+    color: greenyellow
+}
+
+.contact-items:hover {
+    background-color: rgb(31, 25, 31);
+}
+
+.contact-items:hover a {
+    color: greenyellow
 }
 
 /* added wrapper to indicate sections that will wrap for mobile view */
@@ -49,15 +76,18 @@ body {
 
 .main-about-me {
     flex: 75%;
+    flex-wrap: wrap; 
+    
 }
 
-.main-contact-me {
+.contact-items {
     display: flex;
     flex-flow: row-wrap;
     justify-content: space-around;
     flex: 75%;
 }
 
+/*Headers*/
 .header-left {
     flex: 25%;
     text-align: right;
@@ -67,12 +97,59 @@ body {
 
 }
 
+.header-left-contact {
+    border: 5px solid #fff;
+    background-color: rgb(249, 247, 249);
+    padding: 5px 5px 5px 50px;
+    margin: 0px;
+}
 
+/*Work Grid Items in Flex*/
 .work-portfolio-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px
+}
+
+
+
+.portfolio-grid-item {
+    flex-grow: 0;
+    background: rgb(3, 57, 3);
+    background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
+    border: black;
+    width: calc(50% - 5px);
+    /* height: 200px; */
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-item {
+    width: 100%;
+
+}
+
+/*images */
+.project {
+    width: 100%;
+}
+
+.profile-photo {
+    height: 20em; 
+    width: 12em;
+}
+
+/*Hero image formatting*/ 
+.hero-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 @media (max-width: 800px) {
@@ -82,7 +159,6 @@ body {
         text-align: center;
         border-right: none;
         border-bottom: 5px solid #000
-
     }
 
     .portfolio-grid-item {
@@ -91,34 +167,16 @@ body {
 
 }
 
-
-.portfolio-grid-item {
-    flex-grow: 0;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 121, 70, 1) 100%);
-    border: black;
-    width: calc(50% - 5px);
-    height: 200px;
-    padding: 15px;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.hero-item {
-    width: 100%;
-}
-
 .footer {
     display: flex;
+    flex-wrap: wrap;
     flex-flow: row wrap;
     font-weight: thin;
     font-size: 25px;
     text-align: center;
-    /* flex: 75%; */
-    padding: 15px;
+    height: 124px;
     align-items: center;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 121, 70, 1) 100%);
+    background: rgb(3, 57, 3);
+    background: linear-gradient(90deg, rgba(3, 57, 3, 1) 0%, rgba(43, 135, 55, 1) 50%, rgba(139, 215, 190, 1) 100%);
 
 }

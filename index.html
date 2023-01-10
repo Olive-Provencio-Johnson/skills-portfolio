@@ -17,52 +17,55 @@
             <li class="item"><a href="#about-me">About Me</a></li>
             <li class="item"><a href="#work">Work</a></li>
             <li class="item"><a href="#contact-me">Contact Me</a></li>
-            <li class="item"><a href="#resume">Resume</a></li>
+            <li class="item"><a href="https://github.com/Olive-Provencio-Johnson" target="_blank">GitHub</a></li>
         </ul>
     </nav>
 
     <!-- Trying to create a row for each section here, i.e. About Me, Work, and Contact with moving left header columns -->
     <div class="wrapper">
-        <h2 class="header-left">About Me</h2>
+        <h2 class="header-left" id="about-me">About Me</h2>
         <article class="main-about-me">
-            <p>I'm a new full-stack web developer whose career has been focused on project and client managemnet for
-                Federally Qualified Health Centers in the Seattle area, and the NNPRFTC, an accrediation and education
-                organization for Nurse Practitioner and PA postgraduate training programs. Web Development may seem like
-                a strange left turn, but I am excited to bridge the gap between my strong project managemnet skills and
-                the world of web development. </p>
+            <p>I'm a new Full Stack Web Developer whose former career has been focused on project and client managemnet for Federally Qualified Health Centers (FQHCs) in the Seattle area. Web Development may seem like a strange left turn, but I am excited to bridge the gap between my strong project managemnet skills and the world of web development and tech.</p>
+            <div>
+                <img src="./assets/photo about me.jpg" class="profile-photo" alt="profile photo"></a>
+            </div>
         </article>
-        <h2 class="header-left">Work</h2>
-        <!--This is the "Work section, where the grid flexes with the size of the page-->
-        <div class="work-portfolio-grid">
-            <div class="portfolio-grid-item hero-item" id="about-me">
-                Item 1 - Horiseon
-            </div>
-            <div class="portfolio-grid-item" id="work">
-                Item 2 - GitHub Repo
-            </div>
-            <div class="portfolio-grid-item" id="contact">
-                Item 3 - Horiseon Placeholder
-            </div>
-            <div class="portfolio-grid-item" id="resume">
-                Item 4 - Horiseon Placeholder
-            </div>
-            <div class="portfolio-grid-item">
-                Item 5 - Horiseon Placeholder
-            </div>
-        </div>
+        <h2 class="header-left" id="work">Work</h2>
+        <!--This is the "Work section-->
+        <content class="work-portfolio-grid">
+            <section class="portfolio-grid-item hero-item">
+                <a href="https://olive-provencio-johnson.github.io/horiseon-refactoring/" target="_blank">
+                    <img src="./assets/screenshot.png" class="project" alt="hero image"></a>
+            </section>
+            <section class="portfolio-grid-item">
+                <a href="https://github.com/Olive-Provencio-Johnson" target="_blank">
+                    <img src="./assets/GitHub Screenshot.png" class="project" alt="github profile"></a>
+            </section>
+            <section class="portfolio-grid-item">
+                <a href="https://www.linkedin.com/in/olivia-provencio-johnson/" target="_blank">
+                    <img src="./assets/LinkedIn.png" class="project" alt="linkedin profile"></a>
+            </section>
+            <section class="portfolio-grid-item">
+                <a href="https://www.ichs.com/nursing" target="_blank">
+                    <img src="./assets/ICHS.png" class="project" alt="project placeholder image image"></a>
+            </section>
+            <section class="portfolio-grid-item">
+                <a href="https://www.apppostgradtraining.com/" target="_blank">
+                    <img src="./assets/CAPP.png" class="project" alt="project placeholder image"></a>
+            </section>
+        </content>
 
     </div>
+
+    <!--Footer-->
     <footer class="footer">
-        <h2 class="header-left">Contact Me</h2>
-        <article class="main-contact-me">
-            <p><a href="mailto:o.provencio.johnson@gmail.com">Email: o.provencio.johnson@gmail.com</a></p>
-            <p><a href="tel:5555555555">Call us at 555-555-5555</a></p>
-            <p>GitHub</p>
-            <p>LinkedIn</p>
+        <h2 class="header-left-contact" id="contact-me">Contact Me</h2>
+        <article class="contact-items">
+            <p><a href="mailto:o.provencio.johnson@gmail.com">Email Me</a></p>
+            <p><a href="tel:5555555555">Call Me</a></p>
+            <p><a href="https://github.com/Olive-Provencio-Johnson">GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/olivia-provencio-johnson/">LinkedIn</a></p>
         </article>
-        <div class="hero-item">
-        
-        </div>
     </footer>
 </body>
 
