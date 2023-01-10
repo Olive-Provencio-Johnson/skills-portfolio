@@ -26,7 +26,7 @@ This webpage can be viewed on regular desktop browsers or mobile.
 
 ![Portfolio Screenshot](./assets/Skills%20Portfolio%20Screenshot.jpg)
 
-![Link to live webpage](https://olive-provencio-johnson.github.io/skills-portfolio/)
+[Link to live webpage](https://olive-provencio-johnson.github.io/skills-portfolio/)
 
 
  
